@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neatify</title>
+  <link rel="stylesheet" href="public/common.css" />
+  <link rel="stylesheet" href="public/index.css" />
+  <script src="public/common.js"></script>
+</head>
+<body class="close-left-sidebar close-right-sidebar">
+  <script>
+    const closeLeftSidebar = storage.get('close-left-sidebar', isMobile)
+    if (!closeLeftSidebar) {
+      document.body.classList.remove('close-left-sidebar')
+    }
+  </script>
+  <main>
+    <aside class="left-sidebar">
+      <header id="sidebarHeader"></header>
+      <div class="sidebar-container"></div>
+    </aside>
+    <!-- <div class="content-container">
+      <div class="folder-page"></div>
+    </div> -->
+    <div class="main-container"></div>
+  </main>
+  <div class="mask"></div>
+</body>
+</html>
+<script src="public/index.js"></script><script>generateMenu({"id":"b6f559ff3f393a0286c152c8b076aef7","title":"LabMed·医学实验室","children":[{"id":"54254ae875c7a2e71e3c3076878690af","title":"学习笔记","children":[{"id":"5aab4c0e761f39e271772fb589c28955","title":"临床检验仪器学","children":[],"pageIdArr":[],"pages":[{"id":"31a4f9fa7beb62d2997f8c484ce8d4c5","title":"第一章 绪论","src":"pages/31a4f9fa7beb62d2997f8c484ce8d4c5/index.html"},{"id":"b2cd26c203b7b9177fcbd44c4343e6ff","title":"第二章 光谱分析仪器与技术","src":"pages/b2cd26c203b7b9177fcbd44c4343e6ff/index.html"},{"id":"db8fd4571fc4af78572b1874300f0f12","title":"第三章 电化学分析仪器与技术","src":"pages/db8fd4571fc4af78572b1874300f0f12/index.html"},{"id":"6e50cc9e836f54c2adcb1448f8b23b08","title":"第四章 色谱分析仪器与技术","src":"pages/6e50cc9e836f54c2adcb1448f8b23b08/index.html"},{"id":"c2a596d88aa814bfd5acf89dffcfdf35","title":"第五章 生物质谱仪器与技术","src":"pages/c2a596d88aa814bfd5acf89dffcfdf35/index.html"},{"id":"752037e2e8c98ab20b8837d70cdca2a9","title":"第六章 电泳仪器与技术","src":"pages/752037e2e8c98ab20b8837d70cdca2a9/index.html"},{"id":"3eb81e56911d1d6df22632fb30046ab2","title":"第七章 流式细胞分析仪器与技术","src":"pages/3eb81e56911d1d6df22632fb30046ab2/index.html"},{"id":"725ab73f2ac91b22d8a69b440b77d481","title":"第八章 临床血液学检验仪器与技术","src":"pages/725ab73f2ac91b22d8a69b440b77d481/index.html"},{"id":"96a87952099c66f097ca0acaf8e77a39","title":"第九章 临床尿液检验仪器与技术","src":"pages/96a87952099c66f097ca0acaf8e77a39/index.html"}]},{"id":"599da02762953ff3f4408298fd53b9ce","title":"临床基础检验学技术","children":[],"pageIdArr":[],"pages":[{"id":"c348d7f7abf5e9ba715fa058f306ac2c","title":"第一章 血液标本采集和处理","src":"pages/c348d7f7abf5e9ba715fa058f306ac2c/index.html"},{"id":"2f9090bbbf69bc7526655f6a546a0524","title":"第二章 血液一般检查","src":"pages/2f9090bbbf69bc7526655f6a546a0524/index.html"},{"id":"719a43e1bb0858584a3b494c001f9b9e","title":"第三章 血液分析仪检验","src":"pages/719a43e1bb0858584a3b494c001f9b9e/index.html"},{"id":"f73fa3972723d8b2ec3c97d2b31321d1","title":"第五章 尿液标本采集和处理","src":"pages/f73fa3972723d8b2ec3c97d2b31321d1/index.html"},{"id":"ce73d33fe467e2ade9e3f702b3f3448b","title":"第六章 尿液一般检验","src":"pages/ce73d33fe467e2ade9e3f702b3f3448b/index.html"},{"id":"2ef4474d0e965b8bb9375332792a02b5","title":"第七章 尿液分析仪检验","src":"pages/2ef4474d0e965b8bb9375332792a02b5/index.html"},{"id":"051ae9156f769f297f17f84aa2706149","title":"第八章 粪便检验","src":"pages/051ae9156f769f297f17f84aa2706149/index.html"},{"id":"45ec9d0d1d66ddade9bd4ed47c2ccaca","title":"第九章 阴道分泌物检验","src":"pages/45ec9d0d1d66ddade9bd4ed47c2ccaca/index.html"},{"id":"cb79e49facb636eb025f57ffcbced1b1","title":"第十章 精液检验","src":"pages/cb79e49facb636eb025f57ffcbced1b1/index.html"}]},{"id":"579d2642f5821fc8ba0288d489195ab5","title":"药理学","children":[],"pageIdArr":[],"pages":[{"id":"f20fa01df54442ec14a801931bf45468","title":"药理学总论","src":"pages/f20fa01df54442ec14a801931bf45468/index.html"},{"id":"bb3a19cc903788c25310bd5bf0ce1e73","title":"传出神经系统药理学","src":"pages/bb3a19cc903788c25310bd5bf0ce1e73/index.html"},{"id":"071eeeae9bdd7f1faff8210f93063a1c","title":"中枢神经系统药理学","src":"pages/071eeeae9bdd7f1faff8210f93063a1c/index.html"},{"id":"8c409f591da82cd69f60843adf563345","title":"解热镇痛抗炎药","src":"pages/8c409f591da82cd69f60843adf563345/index.html"}]}],"pageIdArr":[],"pages":[]}],"pageIdArr":[],"pages":[{"id":"7435f70eeb34b9dc2b764d61e178d26f","title":"LabMed·医学实验室·首页","src":"pages/7435f70eeb34b9dc2b764d61e178d26f/index.html"}]})</script>
